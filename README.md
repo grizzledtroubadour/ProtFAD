@@ -21,7 +21,9 @@ pip install pandas omegaconf
 
 ## Data
 
-- The pretrained model checkpoint can be found in https://onedrive.live.com/?authkey=%21ACSJtIYP40Q8jPI&id=C3EC79DD757518A7%2124003&cid=C3EC79DD757518A7.
+- The pretrained model checkpoint can be found in https://1drv.ms/f/c/c3ec79dd757518a7/UgCnGHV13XnsIIDDw10AAAAAACSJtIYP40Q8jPI.
+
+- Other data may be found in https://1drv.ms/f/c/c3ec79dd757518a7/UgCnGHV13XnsIIDDyl0AAAAAAICBCNJHCdloI3k.
 
 - The data for all tasks can be obtained in https://github.com/hehefan/Continuous-Discrete-Convolution.
 
@@ -54,11 +56,17 @@ python train_fold.py -C configs/[dataset]/[dataset]_mulpro_cl.yaml
 If you find our work useful in your research, please consider citing:
 
 ```
-@article{wang2024protfad,
-  title={ProtFAD: Introducing function-aware domains as implicit modality towards protein function perception},
-  author={Wang, Mingqing and Nie, Zhiwei and He, Yonghong and Ren, Zhixiang},
-  journal={arXiv preprint arXiv:2405.15158},
-  year={2024}
+@article{WANG2025127246,
+title = {Aligning sequence and structure representations leveraging protein domains for function prediction},
+journal = {Expert Systems with Applications},
+volume = {278},
+pages = {127246},
+year = {2025},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2025.127246},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417425008681},
+author = {Mingqing Wang and Zhiwei Nie and Yonghong He and Athanasios V. Vasilakos and Zhixiang Ren},
+keywords = {Protein function prediction, Protein domain, Deep learning, Functional priors, Contrastive learning},
 }
 ```
 
